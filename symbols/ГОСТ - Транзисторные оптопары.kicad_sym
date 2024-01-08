@@ -1,0 +1,172 @@
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "LTV-357T-B" (pin_numbers hide) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 0 0)
+      (effects (font (size 2.5 2.5)))
+    )
+    (property "Value" "LTV-357T-B" (at 0 0 0)
+      (effects (font (size 2.5 2.5)))
+    )
+    (property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "LTV-357T-B_0_1"
+      (arc (start -9.06 6) (mid -15.0003 0) (end -9.06 -6)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -12.5 -2)
+          (xy -7.5 -2)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -12.5 2)
+          (xy -10 -2)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -12.5 2)
+          (xy -7.5 2)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10 2)
+          (xy -10 -2)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9 -6)
+          (xy 9 -6)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9 6)
+          (xy 9 6)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -7.5 2)
+          (xy -10 -2)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4 -2)
+          (xy 4 -2)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4 1.5)
+          (xy 4 1.5)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.6667 -2.7895)
+          (xy 10 -4.714)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.6667 2.7895)
+          (xy 10 4.714)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.6667 3.3333)
+          (xy 6.6667 -3.3333)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (arc (start 9.06 -6) (mid 15.0003 0) (end 9.06 6)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "LTV-357T-B_1_0"
+      (pin input line (at -10 7.5 270) (length 6)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "LTV-357T-B_1_1"
+      (polyline
+        (pts
+          (xy 4 -2)
+          (xy 1 -2.75)
+          (xy 1 -1.25)
+          (xy 4 -2)
+        )
+        (stroke (width 0) (type default))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 4 1.5)
+          (xy 1 0.75)
+          (xy 1 2.25)
+          (xy 4 1.5)
+        )
+        (stroke (width 0) (type default))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 10 -4.714)
+          (xy 7.5852 -4.066)
+          (xy 8.2322 -2.9463)
+          (xy 10 -4.714)
+        )
+        (stroke (width 0) (type default))
+        (fill (type outline))
+      )
+      (pin input line (at -10 -7.5 90) (length 6)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 10 -7.5 90) (length 2.786)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 10 7.5 270) (length 2.786)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
